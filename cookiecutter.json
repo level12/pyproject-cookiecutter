@@ -1,15 +1,15 @@
 {
-  "project_name": "pyp",
+  "project_name": "Hello World",
   "project_dashed": "{{ cookiecutter.project_name|lower|replace(' ', '-') }}",
   "project_namespace": "{{ cookiecutter.project_name|lower|replace(' ', '') }}",
   "python_version": "3.5",
   "python_tox": "py{{cookiecutter.python_version|replace('.', '') }}",
   "python_executable": "python{{cookiecutter.python_version}}",
-  "developer_name": "Randy Syring",
-  "developer_email": "randy.syring@level12.io",
-  "gh_repo_path": "level12/pyp",
-  "gh_repo_name": "pyp",
-  "circle_badge_token": "dbf883ece73be997f2cc36737eb33dd7b19dc2c5",
+  "developer_name": "",
+  "developer_email": "",
+  "gh_repo_path": "team/project",
+  "gh_repo_name": "project",
+  "circle_badge_token": "",
   "codecov_api_token": "",
   "codecov_badge_token": ""
 }
