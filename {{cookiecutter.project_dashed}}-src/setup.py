@@ -32,9 +32,10 @@ setup(
     install_requires=[
         # use this for libraries; or
         # use requirements folder/files for apps
+        'click',
     ],
     entry_points='''
         [console_scripts]
-        {{cookiecutter.project_namespace}} = {{cookiecutter.project_namespace}}:cli_entry
+        {{cookiecutter.project_namespace}} = {{cookiecutter.project_namespace}}.cli:cli_entry
     ''',
 )
